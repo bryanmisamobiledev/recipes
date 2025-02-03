@@ -1,14 +1,11 @@
 class Recipe {
   String label;
   String imageUrl;
-  //TODO: Add Servings and ingredients here
 
   Recipe(
     this.label,
     this.imageUrl,
   );
-
-  // TODO: Add List<Recipe> here
 
   static List<Recipe> samples = [
     Recipe(
@@ -33,7 +30,7 @@ class Recipe {
     ),
     Recipe(
       'Hawaiian Pizza',
-      'assets//15452035777_294cefced5_c.jpg',
+      'assets/15452035777_294cefced5_c.jpg',
     ),
   ];
 }
